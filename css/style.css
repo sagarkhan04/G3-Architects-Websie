@@ -101,6 +101,57 @@ header {
 }
 
 
+/* Features Styles */
+.features {
+    padding: 15px 10px;
+}
+
+.features-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.features-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 40px 20px;
+}
+
+.features-left-side {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px
+}
+
+.features-left-side img {
+    width: 250px;
+}
+
+.features-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.quick {
+    color: rgb(114, 114, 114);
+}
+
+.of {
+    color: rgb(19, 19, 19);
+}
+
+.primary-text {
+    color: rgb(255, 144, 14)
+}
+
+.features-description {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
 
 
 
