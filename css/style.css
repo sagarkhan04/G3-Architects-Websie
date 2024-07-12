@@ -340,6 +340,20 @@ header {
 }
 
 
+/* Footers Styles */
+footer {
+    width: 1070px;
+    margin: 0 auto;
+    padding: 20px 85px;
+    border-radius: 5px;
+    background-color: rgb(255, 244, 231);
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    text-align: center;
+}
+
 
 
 
