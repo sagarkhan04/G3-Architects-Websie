@@ -154,5 +154,103 @@ header {
 
 
 
+/* Features loce and Enjoy styles */
+.features-love {
+    width: 1070px;
+    margin: 55px auto;
+    margin-bottom: 85px;
+}
+
+.features-love-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.features-love-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 500px;
+    padding: 25px 0px;
+}
+
+.features-love-title {
+    border-left: 2px solid rgb(255, 144, 14);
+    padding-left: 10px;
+}
+
+.features-love-subtitle {
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin-bottom: 10px;
+}
+
+.features-love-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+.features-love-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.features-love-card-title {
+    font-size: 16px;
+}
+
+.features-love-card-description {
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+}
+
+.features-love-right-content {
+    position: relative;
+    height: 650px;
+}
+
+.features-love-right-content img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 25px;
+    background: rgb(255, 144, 14);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    color: white;
+    line-height: 14px;
+    font-size: 18px;
+    position: absolute;
+    top: 590px;
+    left: -50px;
+}
+
+.experience-description {
+    font-size: 14px;
+}
+
+
+
+
 
 
