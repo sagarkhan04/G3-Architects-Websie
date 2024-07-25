@@ -95,3 +95,99 @@
     }
 }
 
+
+
+/* Tablet Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+    .navbar,
+    .banner-container,
+    .features-container,
+    .features-love,
+    .sponspors,
+    footer {
+        width: 100%;
+    }
+
+    .navbar,
+    .features-content,
+    .features-love-container,
+    .sponspors-logos {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    
+    /* Banner */
+    .banner-title {
+        font-size: 34px;
+    }
+    
+    .banner-description {
+        width: 80%;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+
+    .banner-content img {
+        width: 90%;
+        height: 100%;
+    }
+
+    /* Features */
+    .features-right-side {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* Features love and Enjoy */
+    .features-love-right-content img {
+        width: 100%;
+    }
+
+    .experience-content {
+        top: 600px;
+        left: -60px;
+    }
+
+
+
+    /* Facts */
+    .facts-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .facts,
+    .facts-description {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .facts-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .facts-title,
+    .facts-description {
+        text-align: center;
+    }
+
+    .facts-cards {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Sponsors */
+    .sponspors-description {
+        width: 70%;
+    }
+
+    /* Footer */
+    .footer-content {
+        text-align: center;
+    }
+}
+
