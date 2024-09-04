@@ -1,0 +1,9 @@
+Project: G3 Architects
+Technology: HTML, CSS
+Responsive: Responsive for mobile and tablet device.
+
+Code Link: https://lnkd.in/gGQknx6b
+Live Link: https://lnkd.in/gDBGnjdQ
+
+
+hashtag#WebDevelopment hashtag#HTML hashtag#CSS hashtag#ResponsiveDesign hashtag#FrontendDevelopment
